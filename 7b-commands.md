@@ -1,4 +1,5 @@
 # Atomic Red Team Setup #
+Runs PowerShell with a bypassed execution policy to then load our script and Install Atomic Red Team + Download the Atomics (Tests).
 ``` powershell
 powershell -ep bypass -nop
 IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing);
